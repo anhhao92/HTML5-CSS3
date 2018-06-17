@@ -9,4 +9,4 @@ Pre-requisites: Node.js 4.x or later
   
 -   **build:** `npm run sass`
 -  **run server**: `npm run serve`
--  **Demo**: https://anhhao92.github.io/HTML5-CSS3/public
+-  **Demo**: https://anhhao92.github.io/HTML5-CSS3/
