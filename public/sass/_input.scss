@@ -1,0 +1,65 @@
+%custom-style {
+    background-color: #475A70;
+    border: none;
+    padding: 12px;
+    color: white;
+    width: 100%;
+  }
+
+.input--custom{
+    @extend %custom-style;
+}
+
+.textarea--custom{
+    @extend %custom-style;
+}
+
+.input-group {
+  padding: 10px 0;
+}
+
+.radio-btn-group {
+    display: flex;
+    .radio-btn-custom:not(:first-child) {
+      padding-left: 20px;
+    }
+  }
+  .radio-btn-custom {
+
+    input[type="radio"] {
+      display: none;
+      position: absolute;
+    }
+
+    label {
+      color: #6f849a;
+      font-weight: 600;
+    }
+
+    .icon, .icomoon {
+      font-size: 20px;
+      padding-right: 8px;
+      color: #1eb4f5;
+    }
+
+    i.icon-circle {
+      color: white;
+    }
+
+    input[type="radio"] {
+      & ~ label .icon-check-circle {
+        display: inline-block;
+      }
+      & ~ label .icon-circle {
+        display: none;
+      }
+      &:not(:checked) {
+        & ~ label .icon-check-circle {
+          display: none;
+        }
+        & ~ label .icon-circle {
+          display: inline-block;
+        }
+      }
+    }
+  }

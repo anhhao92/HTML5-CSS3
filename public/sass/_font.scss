@@ -1,0 +1,95 @@
+$icon-path: '../fonts/';
+@font-face {
+  font-family: 'icomoon';
+  src: url($icon-path + 'icomoon/icomoon.eot');
+  src: url($icon-path + 'icomoon/icomoon.eot#iefix') format('embedded-opentype'),
+  url($icon-path + 'icomoon/icomoon.woff') format('woff'),
+  url($icon-path + 'icomoon/icomoon.ttf') format('truetype'),
+  url($icon-path + 'icomoon/icomoon.svg') format('svg');
+}
+@font-face {
+  font-family: 'simpleLine';
+  src: url($icon-path + 'simple-line-icons/Simple-Line-Icons.eot');
+  src: url($icon-path + 'simple-line-icons/Simple-Line-Icons.eot#iefix') format('embedded-opentype'),
+  url($icon-path + 'simple-line-icons/Simple-Line-Icons.woff') format('woff'),
+  url($icon-path + 'simple-line-icons/Simple-Line-Icons.ttf') format('truetype'),
+  url($icon-path + 'simple-line-icons/Simple-Line-Icons.svg') format('svg');
+}
+%icon-setting{
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+}
+
+.icon {
+  @extend %icon-setting;
+  font-family: 'simpleLine';
+  color: #25B7F6;
+}
+
+.icomoon {
+  @extend %icon-setting;
+  font-family: 'icomoon';
+}
+
+.icon-people:before{
+  content: "\e001";
+}
+.icon-shield:before{
+  content: "\e00e";
+}
+.icon-camrecorder:before{
+  content: "\e07e";
+}
+.icon-chemistry:before{
+  content: "\e026";
+}
+.icon-trophy:before{
+  content: "\e006";
+}
+.icon-screen-desktop:before{
+  content: "\e011";
+}
+.icon-paper-plane:before{
+  content: "\e094";
+}
+.icon-energy:before{
+  content: "\e020";
+}
+.icon-facebook:before{
+  content: "\f09a";
+}
+.icon-twitter:before{
+  content: "\f099";
+}
+.icon-dribbble:before{
+  content: "\f17d";
+}
+.icon-codepen:before{
+  content: "\f1cb";
+}
+.icon-github:before{
+  content: "\f113";
+}
+.icon-menu:before{
+  content: "\e601";
+}
+.icon-map-marker:before{
+  content: "\f041";
+}
+.icon-phone:before{
+  content: "\f095";
+}
+.icon-mail:before{
+  content: "\e002";
+}
+.icon-globe:before{
+  content: "\e078";
+}
+
+.icon-check-circle:before{
+  content: "\e042";
+}
+.icon-circle:before{
+  content: "\f111";
+}

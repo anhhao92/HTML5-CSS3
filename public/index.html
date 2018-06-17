@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RWD - Responsive Web Design Assignment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#">RWD</a>
+            <label class="navbar-toggler" for="show">
+                <i class="icon icon-menu"></i>
+            </label>
+            <input id="show" class="checkbox hidden" type="checkbox">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav__item nav__item--active">
+                        <a href="#intro" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#explore" class="nav-link">Explore</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav-link" href="#plan">Pricing</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav-link" href="#service">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav-link" href="#contact"><span class="highlight">Sign up free</span></a>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
+    </header>
+    <section id="intro" class="intro">
+        <div class="intro__content">
+            <h1 class="intro__title">RWD - Responsive Web Design</h1>
+            <p class="intro__description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            </p>
+            <button class="btn">Demo</button>
+            <button class="btn btn--danger">Download</button>
+        </div>
+    </section>
+
+    <section id="explore" class="explore">
+        <div class="highlight__content">
+            <h1 class="explore__title">Explore Our Products</h1>
+            <p class="explore__description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            </p>
+            <hr class="hr">
+        </div>
+        <div class="explore-container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <img src="images/work1.png" alt="no image" class="img-responsive">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                            <h3><i class="icon icon-people"></i> Real Project For Real Solutions</h3>
+                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. </p>
+                        </div>
+                        <div class="col-lg-12 col-md-6">
+                            <h3><i class="icon icon-camrecorder"></i> Real Project For Real Solutions</h3>
+                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. </p>
+                        </div>
+                        <div class="col-lg-12">
+                            <h3><i class="icon icon-shield"></i> Real Project For Real Solutions</h3>
+                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plan" class="plan">
+        <div class="highlight__content">
+            <h1> Plans Built For Every One</h1>
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            </p>
+            <hr class="hr">
+        </div>
+
+        <div class="plan__list__container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="price__item__container">
+                        <ul class="box-item">
+                                <li class="price__item__title">
+                                    STARTER
+                                </li>
+                                <li>
+                                    <span class="price__item__currency">$</span>
+                                    <span class="price__item__value">9</span>
+                                    <span class="price__item__duration">/MONTH</span>  
+                                </li>
+                                <li>
+                                    <p class="price__item__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                                </li>
+                                <li>
+                                    <button class="btn btn--primary">SELECT PLAN</button>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="price__item__container">
+                        <ul class="box-item">
+                            <li class="price__item__title">
+                                BASIC
+                            </li>
+                            <li>
+                                <span class="price__item__currency">$</span>
+                                <span class="price__item__value">27</span>
+                                <span class="price__item__duration">/MONTH</span>  
+                            </li>
+                            <li>
+                                <p class="price__item__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                            </li>
+                            <li>
+                                <button class="btn btn--primary">SELECT PLAN</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="price__item__container">
+                        <ul class="box-item">
+                            <li class="price__item__title">
+                                <span>PRO</span>
+                                <span class="price__item__offer">BEST OFFER</span>
+                            </li>
+                
+                            <li>
+                                <span class="price__item__currency">$</span>
+                                <span class="price__item__value">74</span>
+                                <span class="price__item__duration">/MONTH</span>  
+                            </li>
+                            <li>
+                                <p class="price__item__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                            </li>
+                            <li>
+                                <button class="btn btn--danger">SELECT PLAN</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="price__item__container">
+                        <ul class="box-item">
+                            <li class="price__item__title">UNLIMITED</li>
+                            <li>
+                                <span class="price__item__currency">$</span>
+                                <span class="price__item__value">140</span>
+                                <span class="price__item__duration">/MONTH</span>  
+                            </li>
+                            <li>
+                                <p class="price__item__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                            </li>
+                            <li>
+                                <button class="btn btn--primary">SELECT PLAN</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="plan__footer"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            <span class="plan__footer--danger">Learn more</span>
+        </p>
+    </section>
+    <section id="service" class="service">
+        <div class="highlight__content">
+            <h1> We Offer Services</h1>
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            </p>
+            <hr class="hr">
+        </div>
+        <div class="service__offer">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="icon icon-chemistry"></i>Hand-crafted with Detailed</h3>
+                        <p class="service__offer__description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3><i class="icon icon-trophy"></i>Award-winning Landing Page</h3>
+                        <p class="service__offer__description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3><i class="icon icon-energy"></i>Light and Fast</h3>
+                        <p class="service__offer__description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3><i class="icon icon-paper-plane"></i>Sleek and Smooth Animation</h3>
+                        <p class="service__offer__description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3><i class="icon icon-people"></i>Satisfied & Happy Client</h3>
+                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <h3><i class="icon icon-screen-desktop"></i>Look Amazing on Devices</h3>
+                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service__footer">
+            <button class="btn btn--primary">Learn more</button>
+        </div>
+    </section>
+    <section id="team" class="team">
+        <div class="highlight__content">
+            <h1>Meet The Team</h1>
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            </p>
+            <hr class="hr">
+        </div>
+
+        <div class="team__member__list">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__member__container">
+                        <ul class="box-item">
+                            <li><img class="team__member__avatar" src="images/person1.png" alt="no image" class="img-responsive"></li>
+                            <li class="title">ROGER GARFIELD</li>
+                            <li class="sub-title">Co-Founder, Lead Developer</li>
+                            <li>
+                                <p class="team__member__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                            </li>
+                            <li class="team__member__social-icon">
+                                <i class="icomoon icon-facebook"></i>
+                                <i class="icomoon icon-twitter"></i>
+                                <i class="icomoon icon-dribbble"></i>
+                                <i class="icomoon icon-codepen"></i>
+                                <i class="icomoon icon-github"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__member__container">
+                        <ul class="box-item">
+                            <li><img class="team__member__avatar" src="images/person1.png" alt="no image" class="img-responsive"></li>
+                            <li class="title">ROGER GARFIELD</li>
+                            <li class="sub-title">Co-Founder, Product Designer</li>
+                            <li>
+                                <p class="team__member__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                            </li>
+                            <li class="team__member__social-icon">
+                                <i class="icomoon icon-facebook"></i>
+                                <i class="icomoon icon-twitter"></i>
+                                <i class="icomoon icon-dribbble"></i>
+                                <i class="icomoon icon-codepen"></i>
+                                <i class="icomoon icon-github"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <div class="team__member__container">
+                        <ul class="box-item">
+                                <li><img class="team__member__avatar" src="images/person1.png" alt="no image" class="img-responsive"></li>
+                                <li class="title">ROGER GARFIELD</li>
+                                <li class="sub-title">Co-Founder, Lead Developer</li>
+                                <li>
+                                    <p class="team__member__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                                </li>
+                                <li class="team__member__social-icon">
+                                    <i class="icomoon icon-facebook"></i>
+                                    <i class="icomoon icon-twitter"></i>
+                                    <i class="icomoon icon-dribbble"></i>
+                                    <i class="icomoon icon-codepen"></i>
+                                    <i class="icomoon icon-github"></i>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <h2 class="footer__title">About Us</h2>
+                <hr class="hr--custom">
+                <p class="footer__content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                <hr class="hr--custom">
+                <p class="footer__content">Lorem ipsum dolor sit amet <br>&copy; All Rights Reverse</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <h2 class="footer__title"> Our Address</h2>
+                <hr class="hr--custom">
+                <div class="address__info">
+                    <i class="icomoon icon-map-marker"></i>
+                    <p class="address__content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                </div>
+                <div class="address__info">
+                    <i class="icomoon icon-phone"></i>
+                    <p class="address__content">+1233 4567 89</p>
+                </div>
+                <div class="address__info">
+                    <i class="icomoon icon-mail"></i>
+                    <p class="address__content">info@yoursite.com</p>
+                </div>
+                <div class="address__info">
+                    <i class="icomoon icon-globe"></i>
+                    <p class="address__content">www.yoursite.com</p>
+                </div>
+                <h2 class="footer__title"> Connect With Us</h2>
+                <hr class="hr--custom">
+                <div class="address__social">
+                    <i class="icomoon icon-facebook"></i>
+                    <i class="icomoon icon-twitter"></i>
+                    <i class="icomoon icon-globe"></i>
+                    <i class="icomoon icon-github"></i>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-4">
+                <h2 class="footer__title">Drop us a line</h2>
+                <hr class="hr--custom">
+                <div class="input-group">
+                    <input class="input--custom" type="text" placeholder="Name"/>
+                </div>
+                <div class="radio-btn-group">
+                    <div class="radio-btn-custom">
+                        <input type="radio" name="gender" id='gender-male' checked>
+                        <label for="gender-male">
+                            <i class="icomoon icon-circle"></i>
+                            <i class="icomoon icon-check-circle"></i>
+                            <span>Male</span>
+                        </label>
+                    </div>
+                    <div class="radio-btn-custom">
+                        <input type="radio" name="gender" id='gender-female'>
+                        <label for="gender-female">
+                            <i class="icomoon icon-circle"></i>
+                            <i class="icomoon icon-check-circle"></i>
+                            <span>Female</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input class="input--custom" placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <textarea class="textarea--custom" rows="5"></textarea>
+                </div>
+                <button class="btn btn--danger">SEND MESSAGE</button>
+        
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
